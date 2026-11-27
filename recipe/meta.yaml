@@ -1,5 +1,5 @@
 {% set name = "File-Path" %}
-{% set version = "2.18" %}
+{% set version = "2.19" %}
 
 package:
   name: perl-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/{{ name }}-{{ version }}.tar.gz
-    sha256: 980f0a17edb353df46e9cd7b357f9f5929cde0f80c45fd7a06cf7e0e8bd6addd
+    sha256: e3b04ca1e1aa1ce4344907b7476cb8da33f1be603eb01fc5c9efc59d7b8de86d
   - url: https://raw.githubusercontent.com/Perl/perl5/v5.32.1/Copying
     sha256: d77d235e41d54594865151f4751e835c5a82322b0e87ace266567c3391a4b912
   - url: https://raw.githubusercontent.com/Perl/perl5/v5.32.1/Artistic
